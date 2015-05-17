@@ -1,0 +1,129 @@
+div#container{width:1000px;float:center;}
+div#header {background-color:#99bbbb;text-align:center;}
+div#big_left {background-color:#ffff99; height:200px; width:600px; float:left;}
+div#small_left {background-color:#ffff99; height:200px; width:400px; float:left;}
+div#big_right {background-color:#ffff99; height:200px; width:600px; float:right;}
+div#small_right {background-color:#ffff99; height:200px; width:400px; float:right;}
+div#hotel_bar {background-color:#EEEEEE; height:200px; width:1000px; float:center; text-align:center;}
+div#footer {background-color:#99bbbb; clear:both; text-align:center;}
+h1 {margin-bottom:0; font-size:24px;}
+h2 {margin-bottom:0; font-size:20px;}
+h3 {margin-bottom:0; font-size:16px;}
+ul {margin:0;}
+li {list-style:none;}
+
+div.head
+  {
+  height:auto; 
+  width:1000px; 
+  float:center; 
+  text-align:center;
+  font-size:26px;
+  }
+ div.mini_bar
+  {
+  background-color:#EEEEEE; 
+  height:auto; 
+  width:1000px; 
+  float:center; 
+  text-align:center;
+  font-size:18px;
+  }
+div.cat_bar
+  {
+  background-color:#99bbbb; 
+  height:auto; 
+  width:1000px; 
+  float:center; 
+  text-align:center;
+  font-size:22px;
+  } 
+div.pair
+  {
+  min-height:500px;
+  height:auto; 
+  width:1000px; 
+  float:center; 
+  }
+div.text
+  {
+  min-height:40px;
+  height:auto; 
+  width:1000px; 
+  float:center; 
+  }
+div.left_wide_text
+{
+  margin:3px;
+  border:1px solid #bebebe;
+  height:auto;
+  text-align:left;
+  white-space: pre-wrap;
+  float:left;
+  width:570px;
+}
+div.right_wide_text
+{
+  margin:3px;
+  border:1px solid #bebebe;
+  height:auto;
+  text-align:left;
+  white-space: pre-wrap;
+  float:right;
+  width:570px;
+}
+div.left_narrow_text
+{
+  margin:3px;
+  border:1px solid #bebebe;
+  height:auto;
+  text-align:left;
+  white-space: pre-wrap;
+  float:left;
+  width:370px;
+}
+div.right_narrow_text
+{
+  margin:3px;
+  border:1px solid #bebebe;
+  height:auto;
+  text-align:left;
+  white-space: pre-wrap;
+  float:right;
+  width:370px;
+}
+div.left_small_img
+  {
+  margin:3px;
+  border:1px solid #bebebe;
+  height:auto;
+  width:auto;
+  float:left;
+  text-align:center;
+  }
+div.right_small_img
+  {
+  margin:3px;
+  border:1px solid #bebebe;
+  height:auto;
+  width:auto;
+  float:right;
+  text-align:center;
+  }
+div.left_small_img div.right_small_img img
+  {
+  display:inline;
+  margin:3px;
+  border:1px solid #bebebe;
+  width:400;
+  height:400;
+  }
+
+div.desc
+  {
+  text-align:center;
+  font-weight:normal;
+  width:400px;
+  font-size:14px;
+  margin:10px 5px 10px 5px;
+  }
