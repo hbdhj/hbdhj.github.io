@@ -15,7 +15,7 @@ li {list-style:none;}
 div.head
   {
   height:auto; 
-  width:1000px; 
+  /*width:1000px;*/
   float:center; 
   text-align:center;
   font-size:26px;
@@ -24,7 +24,7 @@ div.head
   {
   background-color:#EEEEEE; 
   height:auto; 
-  width:1000px; 
+  /*width:expression(document.body.clientWidth > 1000? "780px" : "auto");*/
   float:center; 
   text-align:center;
   font-size:18px;
@@ -33,7 +33,8 @@ div.cat_bar
   {
   background-color:#99bbbb; 
   height:auto; 
-  width:1000px; 
+  /*width:expression(document.body.clientWidth > 1000? "780px" : "auto");
+  width: 1000px; */
   float:center; 
   text-align:center;
   font-size:22px;
@@ -42,14 +43,14 @@ div.pair
   {
   min-height:500px;
   height:auto; 
-  width:1000px; 
+  /*width:expression(document.body.clientWidth > 1000? "780px" : "auto"); */ 
   float:center; 
   }
 div.text
   {
   min-height:40px;
   height:auto; 
-  width:1000px; 
+  /*width:expression(document.body.clientWidth > 1000? "780px" : "auto");*/
   float:center; 
   }
 div.left_wide_text
@@ -60,7 +61,7 @@ div.left_wide_text
   text-align:left;
   white-space: pre-wrap;
   float:left;
-  width:570px;
+  /*width:570px;*/
 }
 div.right_wide_text
 {
@@ -70,7 +71,7 @@ div.right_wide_text
   text-align:left;
   white-space: pre-wrap;
   float:right;
-  width:570px;
+  /*width:570px;*/
 }
 div.left_narrow_text
 {
@@ -80,7 +81,7 @@ div.left_narrow_text
   text-align:left;
   white-space: pre-wrap;
   float:left;
-  width:370px;
+  /*width:370px;*/
 }
 div.right_narrow_text
 {
@@ -90,14 +91,14 @@ div.right_narrow_text
   text-align:left;
   white-space: pre-wrap;
   float:right;
-  width:370px;
+  /*width:370px;*/
 }
 div.left_small_img
   {
   margin:3px;
   border:1px solid #bebebe;
   height:auto;
-  width:auto;
+  /*width:auto;*/
   float:left;
   text-align:center;
   }
@@ -106,7 +107,7 @@ div.right_small_img
   margin:3px;
   border:1px solid #bebebe;
   height:auto;
-  width:auto;
+  /*width:auto;*/
   float:right;
   text-align:center;
   }
