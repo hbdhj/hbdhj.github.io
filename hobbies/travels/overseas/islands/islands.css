@@ -111,6 +111,23 @@ div.right_small_img
   float:right;
   text-align:center;
   }
+div.left_mid_img
+  {
+  float:left;
+  }
+div.right_mid_img
+  {
+  float:right;
+  }
+div.left_mid_img div.right_mid_img img
+  {
+  display:inline;
+  margin:3px;
+  border:1px solid #bebebe;
+  width:470;
+  height:470;
+  text-align:center;
+ }
 div.left_small_img div.right_small_img img
   {
   display:inline;
