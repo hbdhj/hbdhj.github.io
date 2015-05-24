@@ -22,7 +22,7 @@ function GetIslandsList()
 	islands[0]  = new IslandInfo("济州岛", "jeju/jejudo.html", "2万/4天", "7小时", "5月-9月", "", "", "", "贺敏", "落地签", "邮轮");
 	islands[1]  = new IslandInfo("冲绳","okinawa.html","","","","","","","", "是","");
 	islands[2]  = new IslandInfo("普吉岛","phuket/phuket.html","3万/5天","10小时","11月-4月","寺庙，表演，潜水，攀牙湾","皮皮岛,皇帝岛","巴厘岛,塞班岛","贺敏，邓海军，田锐","是","");
-	islands[3]  = new IslandInfo("塞班岛","a1/saipan.html","3万/4天","12小时","12月-6月","潜水，水上运动","","普吉岛,巴厘岛","刘军,邓海军","落地签");
+	islands[3]  = new IslandInfo("塞班岛","saipan/saipan.html","3万/4天","12小时","12月-6月","潜水，水上运动","","普吉岛,巴厘岛","刘军,邓海军","落地签");
 	islands[4]  = new IslandInfo("巴厘岛","bali/bali.html","2万/5天","14小时","6月-9月","","","普吉岛,塞班岛","郝又超，王爱华，汪超","落地签");
 	islands[5] 	= new IslandInfo("新加坡","singapore/singapore.html","2.5万/4天","11小时","6月-9月","动物园，圣淘沙","巴丹岛","香港","贺敏，邓海军，李红君","是","");
 	islands[6] 	= new IslandInfo("巴丹岛","pulaubintan.html","","","","","","","贺敏，李红君","落地签");
