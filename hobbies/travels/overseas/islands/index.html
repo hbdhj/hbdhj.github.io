@@ -8,37 +8,16 @@
 <title>oversea islands</title>
 <script type="text/javascript" src="http://ecn.dev.virtualearth.net/mapcontrol/mapcontrol.ashx?v=7.0"></script>
 <script language="JavaScript" src="loadWorldMap.js"></script>
+<script language="JavaScript" src="loadIslandsList.js"></script>
 </head>
-<body onload="GetMap();">
+<body onload="GetIslandsList();GetMap();">
 <h1 align="center">海岛游攻略</h1>
-<p align="center">version 0.0.4</p>
-<table border="1" align="center">
-<tr><th>Islands</th><th>价格</th><th>床到床时间</th><th>适宜旅行时间</th><th>典型活动</th><th>相关景点</th><th>类似景点</th><th>去过的兄弟</th><th>签证是否</th><th>特别提示</th></tr>
-<tr><td><a href="jeju/jejudo.html"><strong>济州岛</strong></a></td><td>2万/4天</td><td>7小时</td><td>5月-9月</td><td></td><td></td><td></td><td>贺敏</td><td>N</td><td>邮轮</td></tr>
-<tr><td><a href="okinawa.html">冲绳</a></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td>Y</td><td></td></tr>
-<tr><td><a href="phuket/phuket.html"><strong>普吉岛</strong></a></td><td>3万/5天</td><td>10小时</td><td>11月-四月</td><td>寺庙，表演，潜水，攀牙湾</td><td>皮皮岛</td><td>巴厘岛,塞班岛</td><td>贺敏，邓海军，田锐</td><td>Y</td><td></td></tr>
-<tr><td><a href="a1/saipan.html"><strong>塞班岛</strong></a></td><td>3万/4天</td><td>12小时</td><td>12月-6月</td><td>潜水，水上运动</td><td></td><td>Phuket,Bali</td><td>邓海军</td><td>N</td><td></td></tr>
-<tr><td><a href="bali/bali.html"><strong>巴厘岛</strong></a></td><td>2万/5天</td><td>14小时</td><td>6月-9月</td><td></td><td></td><td>Phuket,Saipan</td><td>郝又超，王爱华，汪超</td><td>N</td><td></td></tr>
-<tr><td><a href="singapore/singapore.html"><strong>新加坡</strong></a></td><td>2.5万/4天</td><td>11小时</td><td>6月-9月</td><td></td><td></td><td></td><td>贺敏，邓海军，李红君</td><td>N</td><td></td></tr>
-<tr><td><a href="pulaubintan.html">巴丹岛</a></td><td></td><td></td><td></td><td></td><td></td><td></td><td>贺敏，李红君</td><td>N</td><td></td></tr>
-<tr><td><a href="maledive/maledive.html"><strong>马尔代夫</strong></a></td><td>4.5万/4天</td><td>11小时 (Male)</td><td>全年</td><td>潜水、钓鱼、海洋动物</td><td></td><td>帕劳</td><td>邓海军，谈猛刚，王盈</td><td>N</td><td></td></tr>
-<tr><td><a href="palau.html">帕劳</a></td><td></td><td></td><td></td><td>潜水</td><td></td><td>马尔代夫</td><td></td><td>N</td><td></td></tr>
-<tr><td><a href="sabah.html">沙巴</a></td><td></td><td></td><td></td><td></td><td></td><td></td><td>温胤欣</td><td>Y</td><td>Safety</td></tr>
-<tr><td><a href="boracay.html">长滩</a></td><td>2.5万/5天</td><td></td><td></td><td></td><td></td><td></td><td></td><td>Y</td><td></td></tr>
-<tr><td><a href="santorini/santorini.html"><strong>圣托里尼</strong></a></td><td>5万/8天</td><td>20小时 (雅典)</td><td>5月-10月</td><td>历史，摄影</td><td>Athens</td><td>扎金索斯, 米诺克斯</td><td>邓海军</td><td>Y</td><td></td></tr>
-<tr><td><a href="GreatBarrierReef.html">大堡礁</a></td><td></td><td></td><td></td><td></td><td></td><td></td><td>代刚</td><td>Y</td><td></td></tr>
-<tr><td><a href="seychelles.html">塞舌尔</a></td><td>8万/8天</td><td></td><td></td><td></td><td></td><td></td><td>丁硕</td><td>N</td><td></td></tr>
-<tr><td><a href="hawaii.html">夏威夷</a></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td>N</td><td></td></tr>
-<tr><td><a href="mauritius.html">毛里求斯</a></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td>N</td><td></td></tr>
-<tr><td><a href="fiji.html">斐济</a></td><td></td><td></td><td></td><td></td><td></td><td>瓦努阿图</td><td></td><td>N</td><td></td></tr>
-<tr><td><a href="tahiti.html">塔希提</a></td><td>10万/8天</td><td></td><td></td><td></td><td></td><td></td><td></td><td>N</td><td></td></tr>
-<tr><td><a href="iceland.html">冰岛</a></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td>Y</td><td></td></tr>
-<tr><td><a href="newzealand/newzealand.html"><strong>新西兰</strong></a></td><td>7万/10天</td><td>22小时（基督城）</td><td>2月，5月</td><td></td><td></td><td></td><td>贺敏</td><td>Y</td><td></td></tr>
+<p align="center">version 0.0.5</p>
+<table border="1" align="center" id="islands_list">
 </table>
 <p align="center"></p>
-<p align="center">Islands on world map</p>
+<p align="center">各岛在世界上的位置</p>
 <p align="center"></p>
-<!--<div id='mapDiv' align="center" style="position:relative; width:1000px; height:600px;"></div> -->
 <div id='mapDiv' style="position: relative;width:1000px; height:600px; margin: auto;"></div> 
 </body>
 </html>
