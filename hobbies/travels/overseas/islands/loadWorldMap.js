@@ -81,6 +81,9 @@ function GetMap()
 	var fiji_loc = new Microsoft.Maps.Location(-17.65, 178.147);
 	var fiji_pin = new Microsoft.Maps.Pushpin(fiji_loc, { text: "Fiji"});
 	islands.push(fiji_pin, { text: "Fiji"});
+	var nz_loc = new Microsoft.Maps.Location(-43.5, 172.5);
+	var nz_pin = new Microsoft.Maps.Pushpin(nz_loc, { text: "NZ"});
+	islands.push(nz_pin, { text: "NZ"});
 	// Attach a handler to the pin so that it is removed when it is clicked
 	//Microsoft.Maps.Events.addHandler(pin, 'click', removePin);             
 
