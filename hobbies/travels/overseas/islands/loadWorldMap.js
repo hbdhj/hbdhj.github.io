@@ -84,6 +84,12 @@ function GetMap()
 	var nz_loc = new Microsoft.Maps.Location(-43.5, 172.5);
 	var nz_pin = new Microsoft.Maps.Pushpin(nz_loc, { text: "NZ"});
 	islands.push(nz_pin, { text: "NZ"});
+	var tw_loc = new Microsoft.Maps.Location(25, 121);
+	var tw_pin = new Microsoft.Maps.Pushpin(tw_loc, { text: "TW"});
+	islands.push(tw_pin, { text: "TW"});
+	var sr_loc = new Microsoft.Maps.Location(6.94, 79.84);
+	var sr_pin = new Microsoft.Maps.Pushpin(sr_loc, { text: "SR"});
+	islands.push(sr_pin, { text: "SR"});
 	// Attach a handler to the pin so that it is removed when it is clicked
 	//Microsoft.Maps.Events.addHandler(pin, 'click', removePin);             
 
