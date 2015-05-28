@@ -32,7 +32,7 @@ function GetIslandsList()
 	islands[9] 	= new IslandInfo("沙巴","sabah.html","","","","","","","温胤欣","是","安全顾虑","");
 	islands[10] = new IslandInfo("长滩","boracay.html","2万/5天","","","","","","于川","是","","");
 	islands[11] = new IslandInfo("圣托里尼","santorini/santorini.html","5万/8天","15-20小时 (雅典)","5月-10月","历史，摄影","雅典","扎金索斯, 米诺克斯","邓海军","是","",">10岁");
-	islands[12] = new IslandInfo("大堡礁","GreatBarrierReef.html","","","","","","","","代刚","是","",">8岁");
+	islands[12] = new IslandInfo("大堡礁","GreatBarrierReef.html","","","","","","","代刚","是","",">8岁");
 	islands[13] = new IslandInfo("塞舌尔","seychelles.html","6万/8天","","","","","","丁硕","免签","","");
 	islands[14] = new IslandInfo("夏威夷","hawaii.html","","","","","","","","是","","");
 	islands[15] = new IslandInfo("毛里求斯","mauritius.html","5万/8天","","","","","","","免签","","");
