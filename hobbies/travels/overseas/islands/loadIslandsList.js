@@ -31,13 +31,13 @@ function GetIslandsList()
 	islands[8] 	= new IslandInfo("帕劳","palau.html","","","","潜水","","马尔代夫","","免签","",">8岁");
 	islands[9] 	= new IslandInfo("沙巴","sabah.html","","","","","","","温胤欣","是","安全顾虑","");
 	islands[10] = new IslandInfo("长滩","boracay.html","2万/5天","","","","","","","是","","");
-	islands[11] = new IslandInfo("圣托里尼","santorini/santorini.html","5万/8天","20小时 (雅典)","5月-10月","历史，摄影","雅典","扎金索斯, 米诺克斯","邓海军","是","",">10岁");
+	islands[11] = new IslandInfo("圣托里尼","santorini/santorini.html","5万/8天","15-20小时 (雅典)","5月-10月","历史，摄影","雅典","扎金索斯, 米诺克斯","邓海军","是","",">10岁");
 	islands[12] = new IslandInfo("大堡礁","GreatBarrierReef.html","","","","","","","","代刚","是","",">8岁");
 	islands[13] = new IslandInfo("塞舌尔","seychelles.html","6万/8天","","","","","","丁硕","免签","","");
 	islands[14] = new IslandInfo("夏威夷","hawaii.html","","","","","","","","是","","");
-	islands[15] = new IslandInfo("毛里求斯","mauritius.html","","","","","","","","免签","","");
+	islands[15] = new IslandInfo("毛里求斯","mauritius.html","5万/8天","","","","","","","免签","","");
 	islands[16] = new IslandInfo("斐济","fiji.html","","","","","","瓦努阿图","","免签","","");
-	islands[17] = new IslandInfo("塔希提","tahiti.html","10万/8天","","","","","","","是","","");
+	islands[17] = new IslandInfo("塔希提","tahiti.html","8万/8天","","","","","","","是","","");
 	islands[18] = new IslandInfo("冰岛","iceland.html","","","","","","","","是","","");
 	islands[19] = new IslandInfo("新西兰","newzealand/newzealand.html","7万/10天","22小时（基督城）","2月，5月","","","","贺敏","是","",">10岁");
 	islands[20] = new IslandInfo("斯里兰卡","srilanka.html","","","","","","","","免签","","");
