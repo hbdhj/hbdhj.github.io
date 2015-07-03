@@ -24,7 +24,7 @@ function GetIslandsList()
 	islands[1]  = new IslandInfo("冲绳","okinawa.html","","","","","","", "", "是","","");
 	islands[2]  = new IslandInfo("普吉岛","phuket/phuket.html","2.5万/5天","10小时","11月-4月","寺庙，表演，潜水，攀牙湾","皮皮岛,皇帝岛","巴厘岛,塞班岛","贺敏，邓海军，田锐","是","",">4岁");
 	islands[3]  = new IslandInfo("塞班岛","saipan/saipan.html","3万/4天","12小时","12月-6月","潜水，水上运动","军舰岛","普吉岛,巴厘岛","刘军,邓海军","落地签","",">4岁");
-	islands[4]  = new IslandInfo("巴厘岛","bali/bali.html","2万/5天","14小时","6月-9月","","","普吉岛,塞班岛","郝又超，王爱华，汪超","落地签","",">4岁");
+	islands[4]  = new IslandInfo("巴厘岛","bali/bali.html","2万/5天","14小时","6月-9月","","","普吉岛,塞班岛","郝又超，王爱华，汪超，何剑峰","落地签","",">4岁");
 	islands[5] 	= new IslandInfo("新加坡","singapore/singapore.html","2.5万/4天","11小时","6月-9月","动物园，圣淘沙","巴丹岛","香港","贺敏，邓海军，李红君","是","",">6岁");
 	islands[6] 	= new IslandInfo("民丹岛","pulaubintan.html","","","","","","","贺敏，李红君","落地签","",">6岁");
 	islands[7] 	= new IslandInfo("马尔代夫","maledive/maledive.html","4.5万/4天","11小时 (Male)","5月-10月","潜水、钓鱼、海洋动物","","帕劳","邓海军，谈猛刚，王盈","免签","",">8岁");
@@ -41,7 +41,7 @@ function GetIslandsList()
 	islands[18] = new IslandInfo("冰岛","iceland.html","","","","","","","","是","","");
 	islands[19] = new IslandInfo("新西兰","newzealand.html","7万/10天","22小时（基督城）","2月，5月","","","","贺敏","是","",">10岁");
 	islands[20] = new IslandInfo("斯里兰卡","srilanka.html","","","","","","","","免签","","");
-	islands[21] = new IslandInfo("台湾","taiwan/taiwan.html","","","","","","","安志鹏、王爱华","赴台证、入台证","",">10岁");
+	islands[21] = new IslandInfo("台湾","taiwan/taiwan.html","","","","","","","安志鹏、王爱华，郭湘黎","赴台证、入台证","",">10岁");
 	islands[22] = new IslandInfo("苏梅","samui.html","","","","","","","","是","",">4岁");
 	headerCol = document.createElement('tr');
 	for ( headTitle in islandsTableHeader) {
