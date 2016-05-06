@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link type="text/css" rel="stylesheet" href="stylesheet.css"/>
+        <meta content="width=device-width, initial-scale=1, maximum-scale=1" name="viewport" />
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.1.0/Chart.bundle.js"></script>
+        <title>Haijun Deng's code on github</title>
+    </head>
+    <body>
+        <h3>Haijun Deng coding on github</h3>
+        <canvas id="codeType" width="100" height="100"></canvas>
+<script>
+var ctx = document.getElementById("codeType");
+var codeType = new Chart(ctx, {
+    type: 'pie',
+    data: {
+        labels: [
+            "C/C++",
+            "python",
+            "JavaScript"
+        ],
+        datasets: [
+            {
+                data: [300, 50, 100],
+                backgroundColor: [
+                    "#FF6384",
+                    "#36A2EB",
+                    "#FFCE56"
+                ],
+                hoverBackgroundColor: [
+                    "#FF6384",
+                    "#36A2EB",
+                    "#FFCE56"
+                ]
+            }]
+    },
+    options: {
+        scales: {
+            yAxes: [{
+                ticks: {
+                    beginAtZero:true
+                }
+            }]
+        }
+    }
+});
+</script>
+
+    </body>
+</html>
