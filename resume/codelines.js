@@ -3,21 +3,22 @@ function load() {
     var codeType = new Chart(ctx, {
         type: 'pie',
         data: {
-            // 2016-05-14 {'go': 24, 'php': 245, 'c': 29182, 'java': 999, 'html': 739, 'python': 3987, 'ajax': 600, 'swift': 312, 'javascript': 806, 'css': 2830, 'objective-c': 107, 'ruby': 424}
+            // 2016-05-14 ('c', 30150), ('python', 4149), ('html', 3379), ('css', 2830), ('javascript', 1321), ('swift', 1068), ('java', 999), ('objective-c', 624), ('ajax', 600), ('ruby', 424), ('php', 245), ('go', 24)
             labels: [
-                "C/C++ 29182",
-                "python 3987",
+                "C/C++ 30150",
+                "python 4149",
+                "HTML 3379",
                 "css 2830",
+                "JavaScript 1321",
+                "swift 1068",
                 "Java 999",
-                "JavaScript 806",
-                "HTML 739",
+                "Objective-C 624",
                 "Ruby 424",
-                "swift 312",
                 "php 245"
             ],
             datasets: [
                 {
-                    data: [29182, 3987, 2830, 999, 806, 739, 424, 312, 245],
+                    data: [30150, 4149, 3379, 2830, 1321, 1068, 999, 624, 424, 245],
                     backgroundColor: [
                         "#FF6384",
                         "#36A2EB",
@@ -27,7 +28,8 @@ function load() {
                         "#FF00FF",
                         "#0088FF",
                         "#00FF88",
-                        "#8800FF"
+                        "#8800FF",
+                        "#880088"
                     ],
                     hoverBackgroundColor: [
                         "#FF6384",
@@ -38,7 +40,8 @@ function load() {
                         "#FF00FF",
                         "#0088FF",
                         "#00FF88",
-                        "#8800FF"
+                        "#8800FF",
+                        "#880088"
                     ]
                 }]
         },
