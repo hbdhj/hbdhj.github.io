@@ -2,7 +2,10 @@ function load() {
     var ctx = document.getElementById("codelines");
     var totalLineElem = document.getElementById("totalLines");
     totalLineElem.innerHTML = totalLineElem.innerHTML.replace("_totallines_", totalLines.toLocaleString());
-
+    var arrayLength = myLines.length;
+    for (var i = 0; i < arrayLength; i++) {
+        myLang[i] = myLang[i] + " " + myLines[i].toLocaleString(); 
+    }
     var codeType = new Chart(ctx, {
         type: 'pie',
         data: {
