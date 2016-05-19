@@ -4,7 +4,7 @@ function load() {
     totalLineElem.innerHTML = totalLineElem.innerHTML.replace("_totallines_", totalLines.toLocaleString());
     var arrayLength = myLines.length;
     for (var i = 0; i < arrayLength; i++) {
-        myLang[i] = myLang[i] + " " + myLines[i].toLocaleString(); 
+        myLang[i] = myLang[i] + " " + myLines[i].toLocaleString();
     }
     var codeType = new Chart(ctx, {
         type: 'pie',
@@ -24,7 +24,11 @@ function load() {
                         "#0088FF",
                         "#00FF88",
                         "#8800FF",
-                        "#880088"
+                        "#880088",
+                        "#008888",
+                        "#AAFF88",
+                        "#88AAFF",
+                        "#AA0088"
                     ],
                     hoverBackgroundColor: [
                         "#FF6384",
@@ -36,7 +40,11 @@ function load() {
                         "#0088FF",
                         "#00FF88",
                         "#8800FF",
-                        "#880088"
+                        "#880088",
+                        "#008888",
+                        "#AAFF88",
+                        "#88AAFF",
+                        "#AA0088"
                     ]
                 }]
         },
