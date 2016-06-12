@@ -9,7 +9,6 @@ function load() {
     var codeType = new Chart(ctx, {
         type: 'pie',
         data: {
-            // 2016-05-14 ('c', 30381), ('python', 4149), ('html', 3379), ('css', 2830), ('javascript', 1321), ('swift', 1068), ('java', 999), ('objective-c', 624), ('ajax', 600), ('ruby', 424), ('php', 245), ('go', 24)
             labels: myLang,
             datasets: [
                 {
@@ -28,6 +27,7 @@ function load() {
                         "#008888",
                         "#AAFF88",
                         "#88AAFF",
+                        "#88AAAA",
                         "#AA0088"
                     ],
                     hoverBackgroundColor: [
@@ -44,6 +44,7 @@ function load() {
                         "#008888",
                         "#AAFF88",
                         "#88AAFF",
+                        "#88AAAA",
                         "#AA0088"
                     ]
                 }]
