@@ -1,5 +1,5 @@
 var myLang = new Array('C/C++', 'Python', 'HTML', 'CSS', 'Go', 'JavaScript', 'Java', 'Swift', 'Objective-C', 'ajax', 'SQL', 'Ruby', 'php', 'Shell');
 
-var myLines = new Array(32760, 4160, 3396, 2830, 1425, 1336, 1060, 720, 624, 600, 523, 424, 245, 16);
+var myLines = new Array(32827, 4160, 3396, 2830, 1425, 1336, 1060, 720, 624, 600, 523, 424, 245, 16);
 
-var totalLines = 50119;
+var totalLines = 50186;
