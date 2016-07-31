@@ -1,20 +1,20 @@
 var map = null;
 
 function GetMap()
-{  
+{
 	var initialViewBounds = Microsoft.Maps.LocationRect.fromCorners(new Microsoft.Maps.Location(60,-20), new Microsoft.Maps.Location(-20,-150));
-	
+
 	var mapOptions = {credentials:"Ai1S6-6Zn3-Pgb76eceZCLGSZJMAZjxjG5ctPrILSnh2Z8Q4isTYvzhwA9BEqJSp",
                            height: 600,
                            width: 1000,
                            bounds: initialViewBounds,
                            mapTypeId: Microsoft.Maps.MapTypeId.road,
                            showMapTypeSelector: false};
-                              
+
 	map = new Microsoft.Maps.Map(document.getElementById("mapDiv"), mapOptions);
-         
+
 	var islands = new Microsoft.Maps.EntityCollection();
-	
+
 	var jeju_loc = new Microsoft.Maps.Location(33.5,126.5);
 	var jeju_pin = new Microsoft.Maps.Pushpin(jeju_loc, { text: "Jeju"});
 	islands.push(jeju_pin, { text: "Jeju"});
@@ -38,7 +38,7 @@ function GetMap()
 	islands.push(bintan_pin, { text: "Bintan"});
 	var male_loc = new Microsoft.Maps.Location(4.175,73.509);
 	var male_pin = new Microsoft.Maps.Pushpin(male_loc, { text: "Male"});
-	islands.push(male_pin, { text: "Male"});         
+	islands.push(male_pin, { text: "Male"});
 	var palau_loc = new Microsoft.Maps.Location(7.44, 134.54);
 	var palau_pin = new Microsoft.Maps.Pushpin(palau_loc, { text: "Palau"});
 	islands.push(palau_pin, { text: "Palau"});
@@ -56,7 +56,7 @@ function GetMap()
 	islands.push(seychelles_pin, { text: "Seychelles"});
 	var mauritius_loc = new Microsoft.Maps.Location(-20.22, 57.59);
 	var mauritius_pin = new Microsoft.Maps.Pushpin(mauritius_loc, { text: "Mauritius"});
-	islands.push(mauritius_pin, { text: "Mauritius"});       
+	islands.push(mauritius_pin, { text: "Mauritius"});
 	var iceland_loc = new Microsoft.Maps.Location(64.928, -18.96);
 	var iceland_pin = new Microsoft.Maps.Pushpin(iceland_loc, { text: "Iceland"});
 	islands.push(iceland_pin, { text: "Iceland"});
@@ -71,7 +71,7 @@ function GetMap()
 	islands.push(samui_pin, { text: "Samui"});
 	var okinawa_loc = new Microsoft.Maps.Location(26.33, 127.8);
 	var okinawa_pin = new Microsoft.Maps.Pushpin(okinawa_loc, { text: "Okinawa"});
-	islands.push(okinawa_pin, { text: "Okinawa"});       
+	islands.push(okinawa_pin, { text: "Okinawa"});
 	var vanuatu_loc = new Microsoft.Maps.Location(-16.376, 167.56);
 	var vanuatu_loc = new Microsoft.Maps.Pushpin(vanuatu_loc, { text: "Vanuatu"});
 	islands.push(vanuatu_loc, { text: "Vanuatu"});
@@ -90,10 +90,13 @@ function GetMap()
 	var sr_loc = new Microsoft.Maps.Location(6.94, 79.84);
 	var sr_pin = new Microsoft.Maps.Pushpin(sr_loc, { text: "SR"});
 	islands.push(sr_pin, { text: "SR"});
+    var jp_loc = new Microsoft.Maps.Location(35, 139);
+	var jp_pin = new Microsoft.Maps.Pushpin(jp_loc, { text: "JP"});
+	islands.push(jp_pin, { text: "JP"});
 	// Attach a handler to the pin so that it is removed when it is clicked
-	//Microsoft.Maps.Events.addHandler(pin, 'click', removePin);             
+	//Microsoft.Maps.Events.addHandler(pin, 'click', removePin);
 
 	// Add the pushpin
 	//map.setMapType("arial");
 	map.entities.push(islands);
-}     
+}
