@@ -43,7 +43,7 @@ function GetIslandsList()
 	islands[20] = new IslandInfo("斯里兰卡","srilanka.html","","","","","","","","免签","","");
 	islands[21] = new IslandInfo("台湾","taiwan/taiwan.html","","","","","","","","赴台证、入台证","",">10岁");
 	islands[22] = new IslandInfo("苏梅","samui.html","","","","","","","邓海军","是","",">4岁");
-    islands[22] = new IslandInfo("日本东京","tokye.html","","","","","","","邓海军","是","",">6岁");
+    islands[23] = new IslandInfo("日本东京","tokye.html","","","","","","","邓海军","是","",">6岁");
 	headerCol = document.createElement('tr');
 	for ( headTitle in islandsTableHeader) {
 		headerCellElem = document.createElement('th');
