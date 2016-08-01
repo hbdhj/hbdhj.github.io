@@ -42,8 +42,8 @@ function GetIslandsList()
 	islands[19] = new IslandInfo("新西兰","newzealand.html","7万/10天","22小时（基督城）","2月，5月","","","","","是","",">10岁");
 	islands[20] = new IslandInfo("斯里兰卡","srilanka.html","","","","","","","","免签","","");
 	islands[21] = new IslandInfo("台湾","taiwan/taiwan.html","","","","","","","","赴台证、入台证","",">10岁");
-	islands[22] = new IslandInfo("苏梅","samui.html","","","","","","","邓海军","是","",">4岁");
-    islands[23] = new IslandInfo("日本东京","tokye.html","","","","","","","邓海军","是","",">6岁");
+	islands[22] = new IslandInfo("苏梅","samui/samui.html","3万/6天","12小时","11月－4月","浮潜","涛岛、南园岛","普吉岛","邓海军","是","",">4岁");
+    islands[23] = new IslandInfo("日本东京","tokyo/tokyo.html","2万/4天","8小时","3-5月，9-10月","迪士尼，购物，温泉","箱根，富士山","新加坡","邓海军","是","",">6岁");
 	headerCol = document.createElement('tr');
 	for ( headTitle in islandsTableHeader) {
 		headerCellElem = document.createElement('th');
