@@ -2,4 +2,4 @@ var myLang = new Array('HTML', 'C++', 'Python', 'C', 'CSS', 'Go', 'XML', 'JavaSc
 
 var myLines = new Array(31730, 31684, 4355, 3327, 2746, 1531, 1515, 1400, 1060, 720, 488, 403, 384, 357, 235);
 
-var totalLines = 101834;
+//var totalLines = 101834;

@@ -1,6 +1,9 @@
 function load() {
     var ctx = document.getElementById("codelines");
     var totalLineElem = document.getElementById("totalLines");
+    var totalLines = myLines.reduce(function(previousValue, currentValue){
+        return currentValue + previousValue;
+    });
     totalLineElem.innerHTML = totalLineElem.innerHTML.replace("_totallines_", totalLines.toLocaleString());
     var arrayLength = myLines.length;
     for (var i = 0; i < arrayLength; i++) {
