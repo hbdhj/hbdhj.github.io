@@ -1,3 +1,3 @@
-// update at Thu Dec 28 02:00:07 XJT 2017
+// update at Fri Dec 29 02:00:09 XJT 2017
 var myLang = new Array('C++', 'Python', 'HTML', 'C', 'CSS', 'Go', 'JavaScript', 'Java', 'C/C++ Header', 'Swift', 'Objective C', 'SQL', 'PHP', 'JSON', 'Ruby',);
-var myLines = new Array(33852, 12244, 4747, 3844, 2746, 1610, 1405, 1105, 749, 720, 488, 479, 384, 362, 235,);
+var myLines = new Array(33852, 12244, 4747, 3868, 2746, 1610, 1405, 1105, 749, 720, 488, 479, 384, 362, 235,);
