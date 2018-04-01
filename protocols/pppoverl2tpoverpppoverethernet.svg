@@ -1,0 +1,35 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" 
+"http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+
+<svg width="100%" height="100%" version="1.1"
+xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<rect id="ppp_lcp_rect" x="440" y="0" width="80" height="30" style="fill:rgb(255,255,255);stroke-width:2;stroke:rgb(0,0,0)"/>
+<text id="ppp_lcp_text" x="447" y="20" style="font-family:Verdana;font-size:22">PPP LCP</text>
+<rect id="ppp_ipcp_rect" x="520" y="0" width="80" height="30" style="fill:rgb(255,255,255);stroke-width:2;stroke:rgb(0,0,0)"/>
+<text id="ppp_ipcp_text" x="524" y="20" style="font-family:Verdana;font-size:22">PPP IPCP</text>
+<rect id="upper_ip_rect" x="600" y="0" width="40" height="30" style="fill:rgb(255,255,255);stroke-width:2;stroke:rgb(0,0,0)"/>
+<text id="upper_ip_text" x="610" y="20" style="font-family:Verdana;font-size:22">IP</text>
+<rect id="ppp_rect" x="440" y="30" width="200" height="30" style="fill:rgb(255,255,255);stroke-width:2;stroke:rgb(0,0,0)"/>
+<text id="ppp_text" x="445" y="50" style="font-family:Verdana;font-size:22">Point-to-Point Protocol</text>
+<rect id="l2tp_data_rect" x="320" y="60" width="120" height="30" style="fill:rgb(255,255,255);stroke-width:2;stroke:rgb(0,0,0)"/>
+<text id="l2tp_data_text" x="330" y="80" style="font-family:Verdana;font-size:24">L2TP Control</text>
+<rect id="l2tp_ctrl_rect" x="440" y="60" width="200" height="30" style="fill:rgb(255,255,255);stroke-width:2;stroke:rgb(0,0,0)"/>
+<text id="l2tp_ctrl_text" x="483" y="80" style="font-family:Verdana;font-size:24">L2TP Data</text>
+<rect id="udp_rect" x="320" y="90" width="320" height="30" style="fill:rgb(255,255,255);stroke-width:2;stroke:rgb(0,0,0)"/>
+<text id="udp_text" x="453" y="110" style="font-family:Verdana;font-size:24">UDP</text>
+<rect id="ppp_lcp_rect" x="160" y="120" width="80" height="30" style="fill:rgb(255,255,255);stroke-width:2;stroke:rgb(0,0,0)"/>
+<text id="ppp_lcp_text" x="167" y="140" style="font-family:Verdana;font-size:22">PPP LCP</text>
+<rect id="ppp_ipcp_rect" x="240" y="120" width="80" height="30" style="fill:rgb(255,255,255);stroke-width:2;stroke:rgb(0,0,0)"/>
+<text id="ppp_ipcp_text" x="244" y="140" style="font-family:Verdana;font-size:22">PPP IPCP</text>
+<rect id="upper_ip_rect" x="320" y="120" width="320" height="30" style="fill:rgb(255,255,255);stroke-width:2;stroke:rgb(0,0,0)"/>
+<text id="upper_ip_text" x="460" y="140" style="font-family:Verdana;font-size:22">IP</text>
+<rect id="ppp_rect" x="160" y="150" width="480" height="30" style="fill:rgb(255,255,255);stroke-width:2;stroke:rgb(0,0,0)"/>
+<text id="ppp_text" x="305" y="170" style="font-family:Verdana;font-size:22">Point-to-Point Protocol</text>
+<rect id="pppoe_ctrl_rect" x="0" y="180" width="160" height="30" style="fill:rgb(255,255,255);stroke-width:2;stroke:rgb(0,0,0)"/>
+<text id="pppoe_ctrl_text" x="13" y="200" style="font-family:Verdana;font-size:24">PPPoE Discovery</text>
+<rect id="pppoe_data_rect" x="160" y="180" width="480" height="30" style="fill:rgb(255,255,255);stroke-width:2;stroke:rgb(0,0,0)"/>
+<text id="pppoe_data_text" x="330" y="200" style="font-family:Verdana;font-size:24">PPPoE Session</text>
+<rect id="ether_rect" x="0" y="210" width="640" height="30" style="fill:rgb(255,255,255);stroke-width:2;stroke:rgb(0,0,0)"/>
+<text id="ether_text" x="273" y="230" style="font-family:Verdana;font-size:24">Ethernet</text>
+</svg>
